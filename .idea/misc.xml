@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/uniqu/Project/WeatherAP/app/src/main/res/font/.xml" value="0.2601851851851852" />
+        <entry key="..\:/Users/uniqu/Project/WeatherAP/app/src/main/res/font/aclonica.xml" value="0.2601851851851852" />
+        <entry key="..\:/Users/uniqu/Project/WeatherAP/app/src/main/res/font/baloo_bhai.xml" value="0.2601851851851852" />
+        <entry key="..\:/Users/uniqu/Project/WeatherAP/app/src/main/res/font/montserrat_black_italic.xml" value="0.2601851851851852" />
+        <entry key="..\:/Users/uniqu/Project/WeatherAP/app/src/main/res/font/montserrat_bold_italic.xml" value="0.2601851851851852" />
+        <entry key="..\:/Users/uniqu/Project/WeatherAP/app/src/main/res/layout/activity_main.xml" value="0.1897644927536232" />
+        <entry key="..\:/Users/uniqu/Project/WeatherAPPP/app/src/main/res/layout/activity_main.xml" value="0.23859649122807017" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_16" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

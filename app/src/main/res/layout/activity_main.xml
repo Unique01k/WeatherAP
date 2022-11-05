@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0F1630"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:background="#00000000"
+        android:fontFamily="@font/montserrat_black_italic"
+        android:rotationX="4"
+        android:text="@string/logo"
+        android:textAlignment="center"
+        android:textColor="#DDD3D3"
+        android:textColorLink="#FFFFFF"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/user_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="@color/cardview_light_background"
+        android:ems="10"
+        android:fontFamily="@font/montserrat_black_italic"
+        android:hint="@string/hint_user_field"
+        android:inputType="textPersonName"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <Button
+        android:id="@+id/main_button"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_field"
+        android:layout_marginHorizontal="70sp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/yellow_500"
+        android:fontFamily="@font/montserrat_black_italic"
+        android:rotationX="27"
+        android:text="@string/main_button"
+        android:textColorLink="#7E4747"
+        app:backgroundTint="#977921"
+        app:rippleColor="#422B2B" />
+
+    <TextView
+        android:id="@+id/result_info"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/main_button"
+        android:layout_marginHorizontal="10sp"
+        android:layout_marginTop="50sp"
+        android:fontFamily="@font/montserrat_black_italic"
+        android:rotationX="4"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textColorLink="#FFFFFF"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/logo1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/main_button"
+        android:layout_marginTop="-400dp"
+        android:fontFamily="@font/montserrat_black_italic"
+        android:rotationX="4"
+        android:text="@string/logo1"
+        android:textAlignment="center"
+        android:textColor="#535252"
+        android:textColorLink="#FFFFFF"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/errorText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Something went wrong"
+        android:visibility="gone" />
+</RelativeLayout>
